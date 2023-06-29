@@ -102,13 +102,16 @@
                 Spacing="10">
                 <Button WidthRequest="70"                          
                         Text="10%"
-                        x:Name="btn10"/>
+                        x:Name="btn10"
+                        Clicked="Btn_Clicked"/>
                 <Button WidthRequest="70" 
                         Text="15%"
-                        x:Name="btn15"/>
+                        x:Name="btn15"
+                        Clicked="Btn_Clicked"/>
                 <Button WidthRequest="70"                         
                         Text="20%"
-                        x:Name="btn20"/>
+                        x:Name="btn20"
+                        Clicked="Btn_Clicked"/>
             </HorizontalStackLayout>
             <Label x:Name="lblTip"
                    Grid.Row="2"
@@ -132,7 +135,8 @@
                                    VerticalOptions="Center">
                 <Button Text="-"
                         WidthRequest="70"
-                        x:Name="btnMinus"/>
+                        x:Name="btnMinus"
+                        Clicked="BtnPlusMinus_Clicked"/>
                 <Label WidthRequest="100"
                        HeightRequest="50"
                        x:Name="lblNoPersons"
@@ -147,7 +151,9 @@
                        VerticalTextAlignment="Center"/>
                 <Button Text="+"
                         WidthRequest="70"
-                        x:Name="btnPlus"/>
+                        x:Name="btnPlus"
+                        Clicked="BtnPlusMinus_Clicked"
+                        />
                 
             </HorizontalStackLayout>
         </Grid>
